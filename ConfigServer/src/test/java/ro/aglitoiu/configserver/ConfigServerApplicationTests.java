@@ -1,4 +1,4 @@
-package com.aglitoiu.configserver;
+package ro.aglitoiu.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
