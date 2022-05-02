@@ -4,3 +4,18 @@ spring:
 spring:
   datasource:
     password: pgadmin
+    url: jdbc:postgresql://localhost:5432/tema_pcj
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQL12Dialect
+      naming:
+        physical-strategy:
+          org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type: trace
+      
