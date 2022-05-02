@@ -1,7 +1,5 @@
 spring:
   profiles: dev
-
-spring:
   datasource:
     password: pgadmin
     url: jdbc:postgresql://localhost:5432/tema_pcj
