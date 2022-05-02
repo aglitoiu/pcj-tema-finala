@@ -10,6 +10,8 @@ spring:
       naming:
         physical-strategy:
           org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+server:
+  port: 8082
 logging:
   level:
     org:
