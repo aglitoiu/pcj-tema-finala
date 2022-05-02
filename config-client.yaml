@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+
+email: dev@agl.com
+
+---
+
+spring:
+  profiles: prod
+  
+email: prod@agl.com
